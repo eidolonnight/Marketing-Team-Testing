@@ -53,6 +53,7 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
 ## Enforcement Guidelines
+
 Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:
 
 ### 1. Correction
@@ -84,7 +85,7 @@ Consequence: A permanent ban from any sort of public interaction within the comm
 This Code of Conduct may be amended from time to time, as may the procedures it sets out where appropriate in a particular case. Your agreement to comply with the Code of Conduct will be deemed agreement to any changes to it. If you would like to suggest updates to this document, you can do so by emailing support@wordcamp.org.
 
 ## Attribution
-This Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at [https://www.contributor-covenant.org/version/2/0/code_of_conduct.html][3].
+This Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at [https://www.contributor-covenant.org/version/2/0/code\_of\_conduct.html][3].
 
 Community Impact Guidelines were inspired by [Mozilla’s code of conduct enforcement ladder][4].
 
