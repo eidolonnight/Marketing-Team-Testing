@@ -1,5 +1,5 @@
 name: Request for amplification
-description: Request distribution of material by the marketing team to various marketing channels
+description: Request distribution of material by the Marketing Team to various marketing channels
 title: "[AMPLIFY]: "
 labels: ["amplify"]
 assignees:
@@ -8,19 +8,20 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Need help spreading the news? Let us know what you would like amplified across the WordPress ecosystem.
   - type: input
-    id: link
+    id: date
     attributes:
-      label: Link
-      description: Do you have an article or resource that is being shared??
-      placeholder: ex. https://wordpress.org/news
+      label: Post date
+      description: What is your preferred day and time to post? Please note that posts to social platforms are scheduled at least 1-week in advance. For urgent requests, please consult the \#marketing Slack.
+      placeholder: ex. 24 May 2022
     validations:
       required: false
   - type: dropdown
     id: campaign
     attributes:
       label: Campaign
+      description: Is this content for an existing campaign?
       multiple: false
       options:
         - "#WordPress"
@@ -32,14 +33,23 @@ body:
         - "#WPBriefing"
         - "#WordCamp"
         - Other
+    validations:
+      required: true
   - type: textarea
     id: content
     attributes:
       label: Suggested content
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
+      description: Using the [WordPress Brand Writing Style Guide](https://make.wordpress.org/marketing/handbook/resources/style-guide-and-brand-book/), craft your suggested content.
     validations:
       required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Do you have an article or resource that is being shared with this content?
+      placeholder: ex. https://wordpress.org/news
+    validations:
+      required: false
   - type: dropdown
     id: channels
     attributes:
@@ -64,14 +74,7 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-  - type: input
-    id: date
-    attributes:
-      label: Post date
-      description: What is your preferred day and time to post?
-      placeholder: ex. 24 May 2022
-    validations:
-      required: false
+
   - type: textarea
     id: notes
     attributes:
@@ -80,10 +83,8 @@ body:
     validations:
       required: false
   - type: checkboxes
-    id: terms
+    id: onbrand
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: This content aligns with the WordPress Brand Writing Style Guide
           required: true
