@@ -84,7 +84,7 @@ body:
   - type: checkboxes
     id: onbrand
     attributes:
-      label: ""
+      label: This content aligns with the WordPress Brand Writing Style Guide
       options:
-        - label: This content aligns with the WordPress Brand Writing Style Guide
+        - label: I've read the WordPress Brand Writing Style Guide
           required: true
