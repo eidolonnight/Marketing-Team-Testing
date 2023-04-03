@@ -1,5 +1,5 @@
 # Support resources
 
-This is a new document. See the following resources for content recommendations:
+Documentation for the Marketing Team can be found in the [handbook][Link](https://make.wordpress.org/marketing/handbook/about/), and questions are best directed to the [#marketing Slack channel](https://wordpress.slack.com/archives/C0GKJ7TFA).
 
-- https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-support-resources-to-your-project
+Other teams and support can be found on [make.wordpress.org](https://make.wordpress.org/).

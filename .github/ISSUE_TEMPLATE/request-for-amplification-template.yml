@@ -23,14 +23,14 @@ body:
       label: Campaign
       multiple: false
       options:
-        - #WordPress
-        - #LearnWP
-        - #WPDiversity
-        - #WPOpenverse
-        - #WPPhotos
-        - #GrowYourStoryWP
-        - #WPBriefing
-        - #WordCamp
+        - "#WordPress"
+        - "#LearnWP"
+        - "#WPDiversity"
+        - "#WPOpenverse"
+        - "#WPPhotos"
+        - "#GrowYourStoryWP"
+        - "#WPBriefing"
+        - "#WordCamp"
         - Other
   - type: textarea
     id: content
