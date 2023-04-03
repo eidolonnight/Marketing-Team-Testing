@@ -40,6 +40,7 @@ body:
       description: Is this content for an existing campaign?
       multiple: false
       options:
+        - Other
         - "#WordPress"
         - "#LearnWP"
         - "#WPDiversity"
@@ -48,7 +49,6 @@ body:
         - "#GrowYourStoryWP"
         - "#WPBriefing"
         - "#WordCamp"
-        - Other
     validations:
       required: true
   - type: textarea
@@ -61,7 +61,7 @@ body:
   - type: checkboxes
     id: onbrand
     attributes:
-      label: This content aligns with the WordPress Brand Writing Style Guide
+      label: Style confirmation
       options:
         - label: I've read the WordPress Brand Writing Style Guide
           required: true
