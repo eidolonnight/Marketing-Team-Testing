@@ -1,5 +1,5 @@
 name: New Showcase entry
-description: ONLY use this to submit information from the Showcase entry sheet. See the project handbook for details.
+description: Only use this issue form to submit information from the Showcase submission review sheet. See the project handbook for details.
 title: "[SHOWCASE]: "
 labels: ["showcase"]
 assignees:
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value:
-        ONLY use this to submit information from the Showcase entry sheet. See the project handbook for details.
+        Please enter the submission data as it appears in the Google sheet.
   - type: input
     id: site_url
     attributes:
