@@ -10,6 +10,13 @@ body:
       value:
         Please enter the submission data as it appears in the Google sheet.
   - type: input
+    id: row
+    attributes:
+      label: Sheet Row Number
+      placeholder: ex. 1337
+    validations:
+      required: true
+  - type: input
     id: site_url
     attributes:
       label: Site URL
