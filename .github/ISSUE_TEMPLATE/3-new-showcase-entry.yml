@@ -8,11 +8,11 @@ body:
   - type: markdown
     attributes:
       value:
-        Please enter the submission data as it appears in the Google sheet.
+        Please enter the submission data as it appears in the Google sheet. This form should only be used by Showcase contributors and should NOT be used to submit new Showcase entries. If you would like to submit a new site, please visit the (Showcase submission page)[https://wordpress.org/showcase/submit-a-wordpress-site/].
   - type: input
     id: row
     attributes:
-      label: Sheet Row Number
+      label: Submission ID
       placeholder: ex. 1337
     validations:
       required: true
